@@ -1,0 +1,8 @@
+[GLOBAL]
+pants_version = "2.21.0"
+backend_packages = ["pants.backend.experimental.go", "pants.backend.experimental.go.lint.golangci_lint"]
+
+[golang]
+minimum_expected_version = "1.23.1"
+
+[golangci-lint]
