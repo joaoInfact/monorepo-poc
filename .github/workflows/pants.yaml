@@ -57,7 +57,7 @@ jobs:
       run: |
         # We also smoke test that our release process will work by running `package`.
         pants package ::
-        pants run cmd/greeter_en:
+        pants run cmd/core:
         pants run cmd/greeter_es:
     - name: Upload Pants log
       uses: actions/upload-artifact@v3
